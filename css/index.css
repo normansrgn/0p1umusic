@@ -42,8 +42,8 @@ body {
     flex-direction: column;
     min-height: 100vh;
     overflow-x: hidden;
-    background: rgb(49, 5, 53);
-    background: linear-gradient(177deg, rgba(49, 5, 53, 1) 0%, rgba(6, 0, 12, 1) 27%, rgba(36, 0, 72, 1) 100%);
+    background: rgb(34,3,37);
+    background: linear-gradient(180deg, rgba(34,3,37,1) 0%, rgba(6,0,12,1) 17%, rgba(19,0,38,1) 100%);
 }
 
 main {
@@ -73,8 +73,11 @@ main {
 }
 
 .track_tittle {
-    font-size: 35px;
+    font-family: "Stalinist One", sans-serif;
+    color: white;
+    font-size: 50px;
     text-align: center;
+    margin-bottom: 70px;
 }
 
 /* POPULAR CSRDS */
@@ -106,4 +109,11 @@ main {
 .track_cards {
     gap: 30px;
     justify-content: space-between;
+}
+
+.destroy_album {
+    margin-top: 140px;
+    margin-bottom: 140px;
+    display: flex;
+    justify-content: center;
 }
