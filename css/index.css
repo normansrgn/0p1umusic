@@ -218,5 +218,23 @@ main {
 }
 
 .merch_cont {
-    justify-content: space-around;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav_list {
+    gap: 23px;
+    display: flex;
+
+}
+
+.nav_item i {
+    
+    
 }
