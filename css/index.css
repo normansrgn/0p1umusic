@@ -84,9 +84,9 @@ main {
 
 .track_card {
     display: flex;
-    gap: 15px;
+    gap: 10px;
     /* align-items: center; */
-    padding: 14px 0px 15px 25px;
+    padding: 10px 0px 10px 25px;
     /* width: 710px; */
     /* height: 100PX; */
     border-radius: 30px;
@@ -94,7 +94,7 @@ main {
 }
 
 .card_img img {
-    width: 75px;
+    width: 60px;
 }
 
 .track_card_inf {
@@ -108,7 +108,7 @@ main {
 
 .track_cards {
     gap: 30px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .destroy_album {
@@ -124,9 +124,10 @@ main {
 }
 
 .destroyIMage img {
+    width: 600px;
     transition: transform 0.2s ease; /* Плавное изменение масштаба */
 }
 
 .destroyIMage:hover img {
-    transform: scale(1.1); /* Увеличение масштаба на 10% */
+    transform: scale(10.10); /* Увеличение масштаба на 10% */
 }
