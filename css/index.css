@@ -2,6 +2,7 @@
 @import url(./reset.css);
 
 
+
 @import url('https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Stalinist+One&display=swap');
 
@@ -42,8 +43,8 @@ body {
     flex-direction: column;
     min-height: 100vh;
     overflow-x: hidden;
-    background: rgb(34,3,37);
-    background: linear-gradient(180deg, rgba(34,3,37,1) 0%, rgba(6,0,12,1) 17%, rgba(19,0,38,1) 100%);
+    background: rgb(34, 3, 37);
+    background: linear-gradient(180deg, rgba(34, 3, 37, 1) 0%, rgba(6, 0, 12, 1) 17%, rgba(19, 0, 38, 1) 100%);
 }
 
 main {
@@ -125,9 +126,11 @@ main {
 
 .destroyIMage img {
     width: 600px;
-    transition: transform 0.2s ease; /* Плавное изменение масштаба */
+    transition: transform 0.2s ease;
+    /* Плавное изменение масштаба */
 }
 
 .destroyIMage:hover img {
-    transform: scale(10.10); /* Увеличение масштаба на 10% */
+    transform: scale(10.10);
+    /* Увеличение масштаба на 10% */
 }
