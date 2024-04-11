@@ -43,8 +43,8 @@ body {
     flex-direction: column;
     min-height: 100vh;
     overflow-x: hidden;
-    background: rgb(34, 3, 37);
-    background: linear-gradient(180deg, rgba(34, 3, 37, 1) 0%, rgba(6, 0, 12, 1) 17%, rgba(19, 0, 38, 1) 100%);
+    background: rgb(34,3,37);
+    background: linear-gradient(180deg, rgba(34,3,37,1) 0%, rgba(6,0,12,1) 17%, rgb(19, 8, 31) 100%);
 }
 
 main {
@@ -85,10 +85,11 @@ main {
 
 .track_card {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     /* align-items: center; */
     padding: 10px 0px 9px 40px;
-    /* width: 710px; */
+    width: 100%;
     /* height: 100PX; */
     border-radius: 30px;
     background-color: #fff;
