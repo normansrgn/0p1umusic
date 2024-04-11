@@ -90,6 +90,7 @@ main {
     /* align-items: center; */
     padding: 10px 0px 9px 40px;
     width: 100%;
+    transition: transform 0.2s ease;
     /* height: 100PX; */
     border-radius: 30px;
     background-color: #fff;
