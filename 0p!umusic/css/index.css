@@ -1,0 +1,109 @@
+@import url(./grid.css);
+@import url(./reset.css);
+
+
+@import url('https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Stalinist+One&display=swap');
+
+* {
+    /* font-family: inherit; */
+}
+
+
+html {
+    scroll-behavior: smooth;
+    /* overflow-y: hidden; */
+
+
+}
+
+.Stalinist {
+    font-family: "Stalinist One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.staatliches-regular {
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+body {
+
+
+
+    /* font-family: Arial, Helvetica, sans-serif; */
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background: rgb(49, 5, 53);
+    background: linear-gradient(177deg, rgba(49, 5, 53, 1) 0%, rgba(6, 0, 12, 1) 27%, rgba(36, 0, 72, 1) 100%);
+}
+
+main {
+    flex-grow: 1;
+}
+
+.url {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+/* HEADER */
+
+.header_tittle {
+    font-family: "Stalinist One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 65px;
+    color: white;
+    text-align: center;
+    font-size: 70PX;
+}
+
+.popular_tracks {
+    margin-top: 90px;
+
+}
+
+.track_tittle {
+    font-size: 35px;
+    text-align: center;
+}
+
+/* POPULAR CSRDS */
+
+.track_card {
+    display: flex;
+    gap: 15px;
+    /* align-items: center; */
+    padding: 14px 0px 15px 25px;
+    /* width: 710px; */
+    /* height: 100PX; */
+    border-radius: 30px;
+    background-color: #fff;
+}
+
+.card_img img {
+    width: 75px;
+}
+
+.track_card_inf {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    font-family: "Staatliches", sans-serif;
+    font-size: 22px;
+
+}
+
+.track_cards {
+    gap: 30px;
+    justify-content: space-between;
+}
