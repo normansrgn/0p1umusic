@@ -185,4 +185,38 @@ main {
 
 }
 
-.artists {}
+.merch {
+    margin-top: 130px;
+}
+
+.merch_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s ease;
+}
+
+.merch_carf_disc {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Staatliches", sans-serif;
+    color: white;
+    font-size: 28px;
+}
+
+.merch_card img {
+    width: 330px;
+}
+
+.merch_card:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
+
+.merch_cont {
+    justify-content: space-around;
+}
