@@ -108,6 +108,7 @@ main {
 }
 
 .track_cards {
+    margin-bottom: 130px;
     gap: 30px;
     justify-content: space-around;
 }
@@ -134,3 +135,54 @@ main {
     transform: scale(10.10);
     /* Увеличение масштаба на 10% */
 }
+
+.artist_inf {
+    font-family: "Staatliches", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.artist_item {
+    color: white;
+    font-size: 30px;
+}
+
+.artist_prof {
+    color: #A7A7A7;
+    font-size: 25px;
+
+}
+
+.artist_img img {
+    width: 290.08px;
+}
+
+.artist_Cards {
+    padding-top: 100px;
+    justify-content: space-around;
+}
+
+.artist_Cards {}
+
+.artist_cad {
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition: transform 0.2s ease;
+    flex-direction: column;
+}
+
+.artist_cad:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+
+    /* background-color: rgba(255, 255, 255, 0.251); */
+
+}
+
+.artists {}
