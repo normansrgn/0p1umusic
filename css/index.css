@@ -261,6 +261,17 @@ main {
 }
 
 @media (max-width:444px) {
-   
+    .track_card {
+        padding: 5px 0px 2px 27px;
+    }
+
+    .card_img img {
+        width: 50px;
+        
+    }
+    .track_card_inf {
+
+        font-size: 17px;
+    } 
 
 }
