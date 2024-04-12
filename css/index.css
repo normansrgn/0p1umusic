@@ -89,7 +89,6 @@ main {
     gap: 10px;
     /* align-items: center; */
     padding: 10px 0px 9px 40px;
-    width: 100%;
     transition: transform 0.2s ease;
     /* height: 100PX; */
     border-radius: 30px;
@@ -141,6 +140,7 @@ main {
 }
 
 .destroyIMage img {
+    max-width: 100%;
     width: 600px;
     transition: transform 0.2s ease;
     /* Плавное изменение масштаба */
@@ -250,3 +250,22 @@ main {
 }
 
 .nav_item i {}
+
+@media (max-width:513px) {
+    .header_tittle {
+        font-size: 60px;
+    }
+    .track_tittle {
+        font-size: 40px;
+    } 
+}
+
+@media (max-width:444px) {
+    .header_tittle {
+        font-size: 50px;
+    }
+    .track_tittle {
+        font-size: 30px;
+    } 
+
+}
