@@ -96,6 +96,10 @@ main {
     /* background-color: #fff; */
 }
 
+.track_card iframe {
+    /* height: 140px; */
+}
+
 .track_card:hover {
     cursor: pointer;
     transition: transform 0.2s ease;
@@ -118,8 +122,8 @@ main {
 
 .track_cards {
     margin-bottom: 130px;
-    gap: 30px;
-    justify-content: space-around;
+    gap: 55px;
+    justify-content: center;
 }
 
 .destroy_album {
