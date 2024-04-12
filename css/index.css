@@ -118,8 +118,8 @@ main {
 
 .track_cards {
     margin-bottom: 130px;
-    gap: 30px;
-    justify-content: space-around;
+    gap: 60px;
+    justify-content: center;
 }
 
 .destroy_album {
