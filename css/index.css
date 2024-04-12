@@ -53,7 +53,7 @@ main {
 
 .url {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: black
 }
 
 /* HEADER */
@@ -94,6 +94,13 @@ main {
     /* height: 100PX; */
     border-radius: 30px;
     background-color: #fff;
+}
+
+.track_card:hover {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    transform: scale(1.1);
+
 }
 
 .card_img img {
