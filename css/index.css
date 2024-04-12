@@ -253,19 +253,14 @@ main {
 
 @media (max-width:513px) {
     .header_tittle {
-        font-size: 60px;
+        font-size: 33px;
     }
     .track_tittle {
-        font-size: 40px;
+        font-size: 20px;
     } 
 }
 
 @media (max-width:444px) {
-    .header_tittle {
-        font-size: 50px;
-    }
-    .track_tittle {
-        font-size: 30px;
-    } 
+   
 
 }
