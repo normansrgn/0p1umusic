@@ -87,13 +87,13 @@ main {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    /* align-items: center; */
-    padding: 10px 0px 9px 40px;
+
+    /* padding: 10px 0px 9px 40px; */
     width: 100%;
     transition: transform 0.2s ease;
     /* height: 100PX; */
-    border-radius: 30px;
-    background-color: #fff;
+    /* border-radius: 30px; */
+    /* background-color: #fff; */
 }
 
 .track_card:hover {
