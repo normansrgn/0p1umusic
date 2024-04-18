@@ -255,9 +255,20 @@ main {
     .header_tittle {
         font-size: 33px;
     }
+
     .track_tittle {
         font-size: 20px;
-    } 
+    }
+
+    .container,
+    .container-fluid,
+    .container-xxl,
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm {
+        width: auto;
+    }
 }
 
 @media (max-width:444px) {
@@ -267,11 +278,12 @@ main {
 
     .card_img img {
         width: 50px;
-        
+
     }
+
     .track_card_inf {
 
         font-size: 17px;
-    } 
+    }
 
 }
