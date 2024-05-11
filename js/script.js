@@ -1,3 +1,7 @@
+
+
+// ZOOM //
+
 document.addEventListener("DOMContentLoaded", function () {
     const zoomable = document.getElementById("zoomable");
     const img = zoomable.querySelector("img");
